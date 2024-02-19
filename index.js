@@ -15,9 +15,9 @@ app.set('view engine', 'ejs');
 
 // Routes
 app.use('/', require('./routes/home'));
-//app.use('/about', require('./routes/about'));
-app.use('/article', require('./routes/article'));
-//app.use('/contact', require('./routes/contact'));
+app.use('/blog', require('./routes/blog'));
+app.use('/about', require('./routes/about'));
+
 
 // Server
 app.listen(process.env.PORT || 3000, function(req, res){

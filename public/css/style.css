@@ -8,50 +8,25 @@ body {
     font-family: "Roboto Mono", monospace;
 }
 
-
-.nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.navbar {
-    display: flex;
-    width: 100%;
-    height: 135px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 120px;
-}
-.nav-branding {
+h1 {
     font-family: "Protest Revolution", sans-serif;
-    color: #000000;
-    font-size: 39px;
-    letter-spacing: 6px;
-    text-decoration: none;
+    margin: 24px 0;
+    font-size: 45px;
+    font-weight: 100;
 }
 
-.nav-menu {
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    list-style: none;
+p {
+    font-size: 16.5px;
+    line-height: 30px;
+    margin: 21px 0;
 }
 
-.nav-menu a {
-    text-decoration: none;
-    color: #000000;
+.body li {
+    margin: 15px 0 15px 42px ;
 }
 
-.nav-menu a:hover {
-    text-decoration: underline;
-    color: #A9A9A9;
-    
-}
-
-.hamburger {
-    display: none;
-    cursor: pointer;
+.body {
+    padding-top: 162px;
+    width: 70%;
+    margin: auto;
 }

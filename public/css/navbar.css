@@ -1,0 +1,48 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 135px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    background-color: #ffffff;
+}
+.nav-branding {
+    font-family: "Protest Revolution", sans-serif;
+    color: #000000;
+    font-size: 39px;
+    letter-spacing: 6px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.nav-menu {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+    color: #A9A9A9;
+    
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
