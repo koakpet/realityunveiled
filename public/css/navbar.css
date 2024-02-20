@@ -1,33 +1,44 @@
-.nav {
-    position: fixed;
+nav {
+    /*position: fixed;*/
     top: 0;
     width: 100%;
+    padding-bottom: 30px;
 }
 
-.navbar {
+.nav-header {
     display: flex;
-    width: 100%;
-    height: 135px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 120px;
-    background-color: #ffffff;
+    padding: 21px 0;
 }
+
+.nav-header a:first-child {
+    color: #A9A9A9;
+}
+
 .nav-branding {
-    font-family: "Protest Revolution", sans-serif;
+    font-family: "Playfair Display", serif;
     color: #000000;
-    font-size: 39px;
-    letter-spacing: 6px;
+    font-size: 36px;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 600;
+}
+
+
+.navbar {
+    border-top: #d4d4d4 1px solid;
+    border-bottom: #d4d4d4 1px solid;
+    width: 78%;
+    margin: auto;
 }
 
 .nav-menu {
-    font-size: 18px;
+    width: 24%;
+    padding: 9px 0;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 30px;
     list-style: none;
 }
 
@@ -42,7 +53,3 @@
     
 }
 
-.hamburger {
-    display: none;
-    cursor: pointer;
-}
