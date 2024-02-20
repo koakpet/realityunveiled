@@ -1,0 +1,53 @@
+<%- include('partials/header'); -%>
+
+<%- include('partials/navbar'); -%>
+    
+<div class="body">
+    <div class="main">
+        <div class="read">
+            <h1>
+                New Post
+            </h1>
+            
+            <hr>
+
+            <form action="/new" method="post">
+                <label for="title">Post Title</label>
+                <input type="text" name="title" id="">
+
+            </form>
+        </div>
+
+        <div>
+            <div>
+                <div  class="about">
+                    <p>Welcome to Reality Unveiled, where we delve into God's word and instructions for spiritual growth. Join us on a transformative journey as we explore scripture-inspired reflections and receive guidance from the Holy Spirit.</p>
+                </div>
+                
+                <div class="posts">
+                    <h2>Recent Posts</h2>
+                    
+                    <div>
+                        <a href="">Nuggets to Boost Your Spiritual Life</a>
+                            <br><span>January 17, 2024</span>
+                    </div>
+                <!--
+                    <div>
+                        <a href="">Secret Place Virgins</a>
+                        <br><span>June 12, 2023</span>
+                    </div>
+
+                    <div>
+                        <img src="img/thumbnail.png" alt=""><a href="">Pillar: The Communion of the Holy Spirit
+                        <br><span>February 28,2023</span></a>
+                    </div>
+                -->
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<%- include('partials/footer'); -%>

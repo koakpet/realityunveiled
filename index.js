@@ -17,6 +17,8 @@ app.set('view engine', 'ejs');
 app.use('/', require('./routes/home'));
 app.use('/blog', require('./routes/blog'));
 app.use('/about', require('./routes/about'));
+app.use('/article', require('./routes/article'));
+app.use('/new', require('./routes/new'));
 
 
 // Server
