@@ -23,10 +23,32 @@ body {
     border-radius: 4px;
 }
 
+.blue {
+    background-color: #5d3cf1;
+    color: #ffffff;
+}
+
+.red {
+    background-color: #ee4f4f;
+    color: #ffffff;
+}
+
 .btn:hover {
     color: #ffffff;
     background-color: #A9A9A9;
     text-decoration: none;
+    border: solid 1px #000000;
+}
+
+.blue:hover {
+    background-color: #2e00fa;
+    color: #ffffff;
+    border: solid 1px #000000;
+}
+
+.red:hover {
+    background-color: #e90000;
+    color: #ffffff;
     border: solid 1px #000000;
 }
 
@@ -118,4 +140,21 @@ p {
 .posts img {
     width: 60px;
     display: block;
+}
+
+form {
+    margin: 30px 0 0 0;
+}
+
+input {
+    width: 100%;
+    font-size: larger;
+    margin: 24px 0 18px 0;
+    outline-width: 0;
+    border: none;
+    border-bottom: #A9A9A9 1px solid;
+}
+
+.buttons {
+    margin: 12px 0;
 }

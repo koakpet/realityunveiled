@@ -12,9 +12,21 @@
             <hr>
 
             <form action="/new" method="post">
-                <label for="title">Post Title</label>
+                <label for="title"><h3>Title:</h3></label>
                 <input type="text" name="title" id="">
 
+                <label for="sub-topic"><h3>Sub-Topic:</h3></label>
+                <input type="text" name="sub-topic" id="">
+
+                <label for="author"><h3>Author:</h3></label>
+                <input type="text" name="author" id="">
+
+                <textarea name="post" id="post" placeholder="Write your new post here"></textarea>
+
+                <div class="buttons">
+                    <button type="submit" class="btn red">Save</button> 
+                    <button type="submit" class="btn blue">Publish</button>
+                </div>
             </form>
         </div>
 
