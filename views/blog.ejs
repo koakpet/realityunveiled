@@ -4,32 +4,32 @@
 
 
 <div class="body">
-    <div class="card">
-        <div>
-            <h2 class="card-title">Nuggets to Boost your Spiritual Growth this Year</h2>
-            <p class="card-description">This is a sample card description.</p>
-            <a href="#" class="card-button">Read More</a>
-        </div>
-        <img src="image.jpg" alt="Card Image" class="card-image">
-    </div>
 
-    <div class="card">
-        <div>
-            <h2 class="card-title">Card Title</h2>
-            <p class="card-description">This is a sample card description.</p>
-            <a href="#" class="card-button">Read More</a>
-        </div>
-        <img src="image.jpg" alt="Card Image" class="card-image">
-    </div>
+    
+            <% for(i=0; i < posts.length; i++){ %>
+                <div class="card">
+                    <div>
+                        <h2><%= posts[i].topic; %></h2>
+                        <p><%= posts[i].article; %></p>
+                        
+                        <a href="#" class="card-button">Read More</a>
+                    </div>
 
-    <div class="card">
-        <div>
-            <h2 class="card-title">Card Title</h2>
-            <p class="card-description">This is a sample card description.</p>
-            <a href="#" class="card-button">Read More</a>
-        </div>
-        <img src="image.jpg" alt="Card Image" class="card-image">
-    </div>
+                    
+                </div>
+                
+                
+            <% } %>
+
+
+
+            
+            
+    
+        <!--<img src="image.jpg" alt="Card Image" class="card-image">-->
+    
+
+    
 </div>
 
 
