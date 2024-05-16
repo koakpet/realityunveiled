@@ -171,4 +171,69 @@ input {
     .lg-hid {
         display: block;
     }
+
+    .body {
+        width: 96%;
+        margin: 78px auto;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 21px;
+    } 
+    
+    h1 span {
+        font-size: 18px;
+        font-weight: lighter;
+        color: #A9A9A9;
+        vertical-align: super;
+    }
+    
+    h2 span {
+        font-size: 15px;
+        font-weight: lighter;
+        color: #A9A9A9;
+        vertical-align: super;
+    }
+    
+    p, a {
+        font-size: 15px;
+    }
+
+
+    .featured {
+        display: block;
+    }
+    
+    .card {
+        display: flex;
+        
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        margin: 3px;
+        box-shadow: 2px 4px 2.5px -1.5px #A9A9A9;
+        /* Add more styles as needed */
+    }
+    
+    .card div {
+        margin: 24px;
+        
+    }
+    
+    .card-image {
+        width: 180px; /* Adjust the width as needed */
+        object-fit: cover;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .main, .read {
+        display: block;
+        width: 100%;
+        margin: 30px auto;
+    }
+
 }

@@ -143,8 +143,8 @@ nav {
     .nav-menu a {
         text-decoration: none;
         font-family: "Playfair Display", serif;
-        font-size: 24px;
-        font-weight: 600;
+        font-size: 21px;
+        font-weight: 510;
         color: #000000;
     }
     
@@ -155,18 +155,13 @@ nav {
     }
 
     .navbar .abt {
-        padding: 90px 0 0 0;
+        padding: 30px 0 0 0;
         background-color: inherit;
-        width: 70%;
         font-style: italic;
         word-spacing: 3px;
     }
  
     .navbar .btn {
         border: #000000 1px solid;
-    }
-    
-
-    
-    
+    }   
 }

@@ -1,3 +1,4 @@
+// Controls for the NavMenu Toggle Botton
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".navbar");
 
