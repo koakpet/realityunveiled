@@ -158,3 +158,17 @@ input {
 .buttons {
     margin: 12px 0;
 }
+
+.lg-hid {
+    display: none;
+}
+
+@media (max-width:1024px) {
+    .sm-hid {
+        display: none;
+    }
+
+    .lg-hid {
+        display: block;
+    }
+}
