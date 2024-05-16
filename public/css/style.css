@@ -92,7 +92,6 @@ p {
 
 .card div {
     margin: 24px;
-    
 }
 
 .card-image {
@@ -209,31 +208,29 @@ input {
     }
     
     .card {
-        display: flex;
-        
         border: 1px solid #e0e0e0;
         border-radius: 8px;
         margin: 3px;
         box-shadow: 2px 4px 2.5px -1.5px #A9A9A9;
-        /* Add more styles as needed */
+        display: flex;
     }
     
     .card div {
-        margin: 24px;
-        
+        margin: 9px;
+        width: 75%;
     }
     
     .card-image {
-        width: 180px; /* Adjust the width as needed */
-        object-fit: cover;
+        width: 25%; /* Adjust the width as needed */
+        object-fit: contain;
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
     }
 
     .main, .read {
         display: block;
-        width: 100%;
-        margin: 30px auto;
+        width: 96%;
+        margin: 60px auto;
     }
 
 }
